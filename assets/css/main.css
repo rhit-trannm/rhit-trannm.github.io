@@ -1755,14 +1755,13 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
-			background: #f00;
+			width: 124px;
+			height: 124px;
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 124px;
+				height: 124px;
 			}
 
 		.image.fit {
@@ -2097,7 +2096,7 @@ input, select, textarea {
 	#logo {
 		position: relative;
 		margin: 1.75em 1.5em 1.5em 1.5em;
-		min-height: 48px;
+		min-height: 144px;
 		cursor: default;
 	}
 
@@ -2105,14 +2104,14 @@ input, select, textarea {
 			position: relative;
 			color: #fff;
 			font-weight: 600;
-			font-size: 1em;
+			font-size: 1.3em;
 			line-height: 1em;
 		}
 
 		#logo p {
 			position: relative;
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.7em;
 			color: rgba(255, 255, 255, 0.5);
 			line-height: 1.25em;
 			margin: 0.5em 0 0 0;
@@ -2136,7 +2135,7 @@ input, select, textarea {
 
 			#nav ul li a {
 				display: block;
-				padding: 0.5em 1.5em 0.5em 1.5em;
+				padding: 1.5em 1.5em 0.5em 1.5em;
 				color: rgba(255, 255, 255, 0.5);
 				text-decoration: none;
 				outline: 0;
@@ -2150,7 +2149,7 @@ input, select, textarea {
 				#nav ul li a span {
 					position: relative;
 					display: block;
-					font-size: 0.8em;
+					font-size: 0.9em;
 				}
 
 					#nav ul li a span:before {
