@@ -3,7 +3,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
+console.log("hello");
 (function($) {
 
 	var	$window = $(window),
@@ -110,7 +110,7 @@
 		// Header.
 			$('#header')
 				.panel({
-					delay: 500,
+					delay: 1,
 					hideOnClick: true,
 					hideOnSwipe: true,
 					resetScroll: true,
