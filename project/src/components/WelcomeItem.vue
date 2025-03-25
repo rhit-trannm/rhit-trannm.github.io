@@ -1,20 +1,16 @@
 <template>
-  <div class="flex flex-col items-center p-6 bg-white rounded-lg shadow-md">
-    <h2 class="text-2xl font-bold text-gray-800 mb-4">{{ title }}</h2>
-    <p class="text-gray-600 mb-4">{{ description }}</p>
-    <Button :label="buttonText" severity="info" raised />
+  <div class="item">
+    <i>
+      <slot name="icon"></slot>
+    </i>
+    <div class="details">
+      <h3>
+        <slot name="heading"></slot>
+      </h3>
+      <slot></slot>
+    </div>
   </div>
 </template>
-
-<script setup lang="ts">
-import Button from 'primevue/button'
-
-defineProps<{
-  title: string
-  description: string
-  buttonText: string
-}>()
-</script>
 
 <style scoped>
 .item {
