@@ -5,5 +5,25 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.associations": {
+			"*.vue": "vue"
+		},
+		"editor.formatOnSave": true,
+		"[vue]": {
+			"editor.defaultFormatter": "Vue.volar"
+		},
+		"typescript.tsdk": "node_modules/typescript/lib",
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "explicit"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"Vue.volar",
+			"Vue.vscode-typescript-vue-plugin",
+			"dbaeumer.vscode-eslint",
+			"esbenp.prettier-vscode"
+		]
+	}
 }
